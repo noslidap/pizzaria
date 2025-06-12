@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-4"
         >
-          Pizzeria Delícia
+          Pizzaria do Gordão
         </motion.h1>
         
         <motion.p

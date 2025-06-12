@@ -45,7 +45,7 @@ const Header: React.FC = () => {
               <span className={clsx(
                 "font-display text-2xl font-bold",
                 isScrolled ? "text-primary-600" : "text-white"
-              )}>Pizzeria Delícia</span>
+              )}>Pizzaria do Gordão</span>
             </a>
           </div>
           

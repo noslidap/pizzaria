@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <div className="container-custom">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="font-display text-xl font-bold text-white mb-4">Pizzeria Delícia</h3>
+            <h3 className="font-display text-xl font-bold text-white mb-4">Pizzaria do Gordão</h3>
             <p className="mb-6">Servindo as melhores pizzas da cidade desde 1995. Massa artesanal, ingredientes frescos e muito sabor em cada fatia.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-stone-400 hover:text-white transition-colors">
@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-stone-800 mt-12 pt-8 text-center text-stone-400 text-sm">
-          <p>© {new Date().getFullYear()} Pizzeria Delícia. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Pizzaria do Gordão. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>

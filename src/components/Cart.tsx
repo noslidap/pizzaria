@@ -17,7 +17,7 @@ const Cart: React.FC<CartProps> = ({ isOpen, onClose }) => {
       .join('\n')}\n\n*Total: ${cart.total}*`;
       
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/5511999999999?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/5511960300951?text=${encodedMessage}`, '_blank');
   };
   
   return (
